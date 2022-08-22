@@ -156,3 +156,24 @@ body {
 .color-p p {
     color: #707070;
 }
+
+.column {
+    float: left;
+    height: 100%;
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.column img {
+    height: 200px;
+    width: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
