@@ -142,6 +142,17 @@ body {
     padding-bottom: 20px;
 }
 
+.half-width img {
+
+    width: 110%;
+
+}
+
+.half-width h1 {
+
+    font-size: 40px;
+}
+
 .color-p p {
     color: #707070;
 }
